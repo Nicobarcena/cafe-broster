@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@100&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+body{
+    font-family: 'Pathway Extreme', sans-serif;
+
+}
+
+.conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.header{
+    background-image: linear-gradient( 
+        rgba( 0, 0, 0,0.7), rgba( 0, 0, 0,0.7)),
+        url(bg.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo{
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+
+}
+
+.menu .nav-bar ul li {
+    position: relative;
+    float: left;
+
+}
+.menu .nav-bar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: white;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .nav-bar ul li a:hover {
+    color: #ce967b;
+}
+#menu{
+    display: none;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-content { 
+    text-align: center;
+
+}
+.header-content h1{
+    font-size: 75px;
+    line-height: 80px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+
+}
+
+.header-content p{
+    font-size: 16px;
+    color: #c5c5c5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #ce967b;
+    color: #f9fafc;
+    text-transform: uppercase;
+
+}
+.btn-1:hover {
+    background-color: #ebad8d;
+}
+
+.cafe{
+    padding: 100px 0;
+    background-color: #e1e2e6;
+    position: relative;
+
+}
+.cafe-content {
+    text-align: center;
+}
+.cafe-content h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+
+}
+
+.txt-p{
+    font-size: 16px;
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+
+.cafe-grup{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+
+.cafe-1{
+    padding: 0 25px;
+
+}
+.cafe-1 img{
+    width: 200px;
+
+}
+
+.cafe-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.cafe-1 h3{
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+
+}
+
+.servicios{
+    background-image: linear-gradient( 
+        rgba( 0, 0, 0,0.7), 
+        rgba( 0, 0, 0,0.7)),
+        url(blog1.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 100px 0 ;
+}
+
+.servicios-content{
+    text-align: center;
+
+}
+.servicios-content h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+
+}
+.servicios-content p{
+    font-size: 16px;
+    color: white;
+    margin-bottom: 50px;
+    padding: 0 100px;
+    
+}
+.servicios-grup{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.services-1{
+    padding: 0 100px;
+
+}
+
+.services-1 img{
+    width: 155px;
+
+}
